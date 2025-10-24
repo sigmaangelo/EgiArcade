@@ -63,6 +63,8 @@
     </section>
     <section class="game-selection">
       <div class="row">
+		          <button onclick="loadSlopeGame()">Snakeeeee</button>
+
         <button onclick="loadSnakeGame()">Snake Game</button>
         <button onclick="loadMoneyTycoonGame()">Money Tycoon Game</button>
         <button onclick="loadPaintingGame()">Painting Game</button>
@@ -87,7 +89,7 @@
             localStorage.setItem("lastPlayed", "Snake Game");
 			window.location.href = "Snake Game/SnakeGame.html";
 		}
-function loadSnakeGame() {
+function loadSlopeGame() {
             localStorage.setItem("lastPlayed", "Snake Game");
 			window.location.href = "slope/slope.html";
 		}
